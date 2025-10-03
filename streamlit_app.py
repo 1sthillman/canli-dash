@@ -21,7 +21,7 @@ st.title("⚽ Canlı Futbol İstatistikleri")
 st.markdown("Bu uygulama, canlı futbol maçlarının skorlarını ve istatistiklerini gösterir.")
 
 # Veritabanı URL'i
-DB_URL = "https://canli-worker.onrender.com/canli.db"
+DB_URL = "https://1sthill.pythonanywhere.com/canli.db"
 
 @st.cache_data(ttl=10)  # 10 saniyede bir yenile
 def load_data():
